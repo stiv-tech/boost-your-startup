@@ -51,4 +51,12 @@
     margin-top: 10px;
     color: rgba(21, 20, 57, 0.3);
 }
-
+@media screen and (max-width: 650px){
+    .head-img{
+        width: 100%;
+        height: auto;
+    }
+    .linebreak{
+        display: none;
+    }
+}
