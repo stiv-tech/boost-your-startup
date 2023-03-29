@@ -4,10 +4,18 @@
     font-family: "DMSans", sans-serif;
 }
 .head-img{
-    width: 100%;
-    height: 90vh;
+    width: 130%;
+    height: 100vh;
 }
-
+.navbar-nav{
+    margin-left: 100% !important;
+}
+.chiboy{
+    display: flex;
+}
+.far{
+    margin-left: 20%;
+}
 .yolla{
     color: #1E0E62 !important;
     font-weight: 700;
@@ -51,7 +59,7 @@
     margin-top: 10px;
     color: rgba(21, 20, 57, 0.3);
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 992px){
     .head-img{
         width: 100%;
         height: auto;
@@ -59,8 +67,17 @@
     .linebreak{
         display: none;
     }
+    .chiboy{
+        display: block;
+    }
+    .far{
+        margin-left: auto;
+    }
+    .navbar-nav{
+        margin-left:auto!important;
+    }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
+/* @media screen and (min-width: 768px) and (max-width: 1023px){
     .row {
         display: flex;
       }
@@ -79,4 +96,4 @@
         padding: 6px 22px;
       }
       
-}
+} */
